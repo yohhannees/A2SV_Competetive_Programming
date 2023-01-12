@@ -8,6 +8,7 @@ class Solution:
         for i in nums:
             a += 1
             if i == target:
+                
                 b = a - 1
                 ans.append(b)
         return (ans)
